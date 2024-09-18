@@ -93,3 +93,81 @@ html,body{
     object-fit: cover;
     
 }
+.section4{
+    height: 20vh;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px 40px;
+}
+.section4 h3{
+    background-color: greenyellow;
+    font-size: 40px;
+    font-weight: 400;
+}
+.section4 p{
+    font-size: 20px;
+}
+.section5{
+    height: 80%;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+.container{
+    height: 250px;
+    flex-shrink: 0;
+    width: 45%;
+    border-radius: 30px;
+    /* background-color: green; */
+    border: 1px solid black;
+    box-shadow: 10px 20px 30px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 20px ;
+    /* gap: px; */
+}
+.container .part1 h3{
+    font-size: 25px;
+    background-color: greenyellow;
+}
+.container .part1 p{
+    font-family: 20px;
+    padding-top: 100px;
+    
+}
+.container .part1 i{
+    background-color: black;
+    color: white;
+    padding-left: 4px;
+    font-family: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    
+
+}
+.container .part2 img{
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+.c1{
+    background-color: black;
+}
+.c1 p{
+    color: white;
+}
+.c1 .part1 i{
+    background-color: white;
+    color: black;
+}
+.c1 .part1 h3{
+    background-color: white;
+    color: black;
+}
