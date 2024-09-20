@@ -28,7 +28,6 @@ let tl2 = gsap.timeline({
         trigger:".section4",
         scroller:"body",
         scrub:2,
-        markers:true,
         start:"top 50%",
         end : "top 0"
     }
